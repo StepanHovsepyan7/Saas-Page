@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1400px){
+    .parent button{
+        left: 91% !important;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .parent2 li{
+        margin-left: 80px !important;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .parent2 li{
+        margin-left: 60px !important;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .parent button{
+        left: 89% !important;
+    }
+    .parent2 a{
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .parent button{
+        left: 87% !important;
+    }
+    .parent2 a{
+       display: none;
+    }
+    .fa-facebook{
+        display: none;
+    }
+    .fa-instagram{
+        display: none;
+    }
+    .fa-square-twitter{
+        display: none;
+    }
+    .fa-layer-group{
+        display: block !important;
+    }
+    .logo1{
+        left: 4% !important;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .parent button{
+        left: 84% !important;
+    }
+    .parent img {
+        left: 4% !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .parent button{
+        left: 80% !important;
+    }
+    .parent img{
+        height: 15px !important;
+    }
+    .parent2 li {
+        margin-left: 35px !important;
+    }
+    .modalNavV{
+        width: 320px !important;
+    }
+    .logo1{
+        left: 6% !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .parent button{
+        left: 75% !important;
+    }
+    .parent img{
+        left: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .parent button{
+        left: 71% !important;
+    }
+}
+@media only screen and (max-width: 450px){
+   .parent2 li{
+    margin-left : 20px !important;
+   }
+}
+
+@media only screen and (max-width: 350px){
+    .parent button{
+        left: 69% !important;
+        font-size: 11px !important;
+        padding: 4px 20px !important;
+    }
+    .fa-sun{
+        font-size: 20px !important;
+        top: 25% !important;
+    }
+    .modalNavV{
+        width: 280px !important;
+    }
+}

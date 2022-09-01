@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  -webkit-animation: myani 10s infinite;
+          animation: myani 10s infinite;
+  margin: 0;
+  padding: 0;
+}
+
+@-webkit-keyframes myani {
+  0% {
+    background-image: url(img/bg1.jpg);
+  }
+  25% {
+    background-image: url(img/bg2.jpg);
+  }
+  50% {
+    background-image: url(img/bg3.jpg);
+  }
+  100% {
+    background-image: url(img/bg4.jpg);
+  }
+}
+
+@keyframes myani {
+  0% {
+    background-image: url(img/bg1.jpg);
+  }
+  25% {
+    background-image: url(img/bg2.jpg);
+  }
+  50% {
+    background-image: url(img/bg3.jpg);
+  }
+  100% {
+    background-image: url(img/bg4.jpg);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.parent {
+  background-color: #262626;
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  z-index: 100;
+}
+.parent button {
+  background-color: #6f9a37;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 0 2px 0 #6f9a37;
+          box-shadow: 0 2px 0 #6f9a37;
+  position: relative;
+  left: 93%;
+  top: 10px;
+  font-size: 14px;
+  padding: 5px 20px;
+  line-height: 1.5;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.parent button:hover {
+  background-color: #7aa93c;
+}
+.parent img {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: 2%;
+  height: 18px;
+  width: 152px;
+}
+
+.parent2 {
+  padding-top: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.parent2 img {
+  width: 40px;
+  height: 40px;
+}
+.parent2 a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.parent2 a:hover {
+  color: #34e3c9;
+}
+.parent2 li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.fa-facebook {
+  font-size: 25px;
+  margin-left: 10px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.fa-instagram {
+  font-size: 25px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.fa-square-twitter {
+  font-size: 25px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.fa-layer-group {
+  font-size: 25px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: none;
+}
+
+.fa-layer-group:hover {
+  color: #34e3c9;
+  cursor: pointer;
+}
+
+.fa-sun {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  font-size: 25px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa-sun:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+}
+
+.fa-facebook:hover {
+  color: #34e3c9;
+}
+
+.fa-square-twitter:hover {
+  color: #34e3c9;
+}
+
+.fa-instagram:hover {
+  color: #34e3c9;
+}
+
+.modalNavV {
+  position: absolute;
+  position: fixed;
+  background-color: #0a0b0f;
+  width: 400px;
+  height: 1000px;
+}
+.modalNavV img {
+  position: fixed;
+  top: 10%;
+  left: 2%;
+  height: 40px;
+  width: 40px;
+}
+.modalNavV .fa-x {
+  position: fixed;
+  position: absolute;
+  top: 10%;
+  font-size: 25px;
+  left: 90%;
+  color: white;
+}
+.modalNavV a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.modalNavV a:hover {
+  color: #34e3c9;
+}
+.modalNavV li {
+  margin-top: 30px;
+  list-style: none;
+}
+.modalNavV .ulliad {
+  margin-top: 150px;
+}
+.modalNavV .fa-facebook {
+  font-size: 25px;
+  margin-left: 80px;
+  bottom: 15%;
+  position: absolute;
+}
+.modalNavV .fa-instagram {
+  position: absolute;
+  bottom: 15%;
+}
+.modalNavV .fa-square-twitter {
+  position: absolute;
+  bottom: 15%;
+  margin-left: 45px;
+}
+
+.modalNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(10, 11, 15, 0.4941176471);
+  display: none;
+}
