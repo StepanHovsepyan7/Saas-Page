@@ -168,7 +168,14 @@ html{
     background-color: #0a0b0f;
     width: 400px;
     height: 1000px;
-    // display: none;
+    animation: myani2 1s;
+    display: none;
+
+    @keyframes myani2 {
+        from{
+            opacity: 0;
+        }
+    }
 
     img{
         position: fixed;
@@ -185,6 +192,7 @@ html{
         font-size: 25px;
         left: 90%;
         color: white;
+        cursor: pointer;
     }
 
     a{
@@ -234,6 +242,7 @@ html{
     background-color: #0a0b0f7e;
     display: none;
 }
+
 
 
 

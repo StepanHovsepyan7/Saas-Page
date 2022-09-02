@@ -203,6 +203,19 @@ html {
   background-color: #0a0b0f;
   width: 400px;
   height: 1000px;
+  -webkit-animation: myani2 1s;
+          animation: myani2 1s;
+  display: none;
+}
+@-webkit-keyframes myani2 {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes myani2 {
+  from {
+    opacity: 0;
+  }
 }
 .modalNavV img {
   position: fixed;
@@ -218,6 +231,7 @@ html {
   font-size: 25px;
   left: 90%;
   color: white;
+  cursor: pointer;
 }
 .modalNavV a {
   color: white;

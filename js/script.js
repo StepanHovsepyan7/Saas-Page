@@ -23,5 +23,51 @@ $(function(){
     })
 
 
+    let modalNavV = $('.modalNavV');
+    let fb = $('.fb');
+    let inst = $('.inst')
+    let twitr = $('.twitr')
+    let book = $('.book'); 
+    let modalNav = $('.modalNav');
+    let  fax = $(' .fa-x');
+
+    if($(window).width() < 990) {
+
+
+        book.click(function () {
+            modalNavV.css({
+                display: 'block',
+            })
+            fb.css({
+                display: 'block', 
+            })
+
+            inst.css({
+                display: 'block',
+            })
+
+            twitr.css({
+                display: 'block',
+            })
+
+          
+
+        })  
+        
+
+
+        fax.click(function(){
+            modalNavV.css({
+                display: 'none',
+            })
+            
+        })
+    }
 
 })
+
+
+
+
+
+// .fa-x
