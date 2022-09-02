@@ -202,7 +202,7 @@ html {
   position: fixed;
   background-color: #0a0b0f;
   width: 400px;
-  height: 1000px;
+  height: 100%;
   -webkit-animation: myani2 1s;
           animation: myani2 1s;
   display: none;
@@ -253,7 +253,7 @@ html {
 }
 .modalNavV .fa-facebook {
   font-size: 25px;
-  margin-left: 80px;
+  margin-left: 50px;
   bottom: 15%;
   position: absolute;
 }
@@ -276,4 +276,98 @@ html {
   height: 100vh;
   background-color: rgba(10, 11, 15, 0.4941176471);
   display: none;
+}
+
+.parentTextHome {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding-top: 20%;
+  font-family: "Lato", sans-serif;
+  -webkit-animation: myani3 1s;
+          animation: myani3 1s;
+}
+@-webkit-keyframes myani3 {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+@keyframes myani3 {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+.parentTextHome h1 {
+  font-size: 100px;
+}
+.parentTextHome button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  height: 60px;
+  width: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.parentAbout {
+  background-color: rgba(10, 11, 15, 0.9);
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 70%;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.parentAbout2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.parentAbout2 img {
+  height: 400px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.parentAbout2 h2 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.parentAbout2 .h4-a {
+  color: gainsboro;
+  margin-left: 30px;
+}
+.parentAbout2 h5 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.parentAbout2 p {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.parentAbout2 .h5-b {
+  margin-top: 180px;
+}
+
+.parentAbout3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: end;
+}
+
+.positionAbout {
+  position: absolute;
+  left: 63%;
+  top: 105%;
 }

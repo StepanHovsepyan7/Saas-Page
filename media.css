@@ -1,16 +1,78 @@
+@media only screen and (max-width: 1607px){
+    .positionAbout{
+        top: 97% !important;
+    }
+}
+@media only screen and (max-width: 1548px){
+    .positionAbout {
+        position: absolute;
+        left: 63%;
+        top: 95% !important;
+    }
+    .parentAbout2 .h4-a {
+        font-size: 20px !important;
+        color: gainsboro;
+        margin-left: 30px;
+    }
+    .parentAbout2 h2 {
+        font-size: 28px;
+    }
+}
+
+
+@media only screen and (max-width: 1500px){
+    .parentAbout2{
+        display: block !important;
+    }
+    .parentAbout2 img{
+        width: 65% !important;
+    }
+    .parentAbout2 h5{
+        text-align: center !important;
+    }
+    .parentAbout2 .h4-a {
+         margin-left: 0px !important; 
+    }
+    .parentAbout2 p {
+        text-align: center !important;
+    }
+    .positionAbout{
+        display: none !important;
+        width: 55% !important;
+    }
+    .parentAbout{
+        height: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        padding-bottom: 12px !important;
+    }
+    .parentAbout2 h2 {
+         margin-left: 0px !important; 
+    }
+    
+    
+}
+
+
 @media only screen and (max-width: 1400px){
     .parent button{
         left: 91% !important;
     }
-}
-@media only screen and (max-width: 1400px){
+    .parentTextHome{
+        padding-top: 25% !important;
+    }
     .parent2 li{
         margin-left: 80px !important;
     }
 }
+
 @media only screen and (max-width: 1200px){
     .parent2 li{
         margin-left: 60px !important;
+    }
+    .parentTextHome{
+        padding-top: 30% !important;
     }
 }
 @media only screen and (max-width: 1100px){
@@ -44,6 +106,9 @@
     .logo1{
         left: 4% !important;
     }
+    .parentTextHome{
+        padding-top: 35% !important;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -53,8 +118,36 @@
     .parent img {
         left: 4% !important;
     }
+    .parentTextHome h1 {
+        font-size: 85px !important;
+    }
+    .parentAbout2 .h4-a {
+        font-size: 10px ;
+    }
+    .parentAbout2 h2 {
+        font-size: 22px !important;
+    }
+    .parentAbout2 h5{
+        margin-left: 0 !important;
+    }
+    .parentAbout2 p {
+        font-size: 14px;
+        margin-left: 0 !important;
+    }
+    .parentAbout{
+        width: 100% !important;
+    }
 }
-
+@media only screen and (max-width: 650px){
+    .parentAbout2 img {
+        height: 285px !important;
+        width: 81% !important;
+        margin-left: 0px !important;
+    }
+    .parentAbout2 .h4-a {
+        font-size: 14px ;
+    }
+}
 @media only screen and (max-width: 600px){
     .parent button{
         left: 80% !important;
@@ -71,6 +164,12 @@
     .logo1{
         left: 6% !important;
     }
+    .parentTextHome h1 {
+        font-size: 60px !important;
+    }
+    .parentTextHome{
+        padding-top: 60% !important;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -80,18 +179,46 @@
     .parent img{
         left: 0% !important;
     }
+    .parentAbout2 img {
+        height: 300px !important;
+    }
 }
+@media only screen and (max-width: 550px){
+    .parentAbout2 h2 {
+        font-size: 18px !important;
+    }
+}
+@media only screen and (max-width: 450px){
+    .parent2 li{
+     margin-left : 20px !important;
+    }
+    .parentTextHome h1 {
+     font-size: 52px !important;
+     }
+     .parentTextHome{
+         padding-top: 90% !important;
+     }
+     .parentTextHome h4{
+         font-size: 15px !important;
+     }
+     .parentTextHome button {
+         height: 50px !important;
+         width: 133px !important;
+     }
+     .parentAbout2 img {
+        height: 270px !important;
+    }
+ }
 
 @media only screen and (max-width: 400px){
     .parent button{
         left: 71% !important;
     }
+    .parentAbout2 img {
+        height: 239px !important;
+    }
 }
-@media only screen and (max-width: 450px){
-   .parent2 li{
-    margin-left : 20px !important;
-   }
-}
+
 
 @media only screen and (max-width: 350px){
     .parent button{
@@ -106,4 +233,12 @@
     .modalNavV{
         width: 280px !important;
     }
+    .parentTextHome{
+        padding-top: 100% !important;
+    }
 }
+
+
+
+
+

@@ -28,7 +28,7 @@ $(function(){
     let inst = $('.inst')
     let twitr = $('.twitr')
     let book = $('.book'); 
-    let modalNav = $('.modalNav');
+    // let modalNav = $('.modalNav');
     let  fax = $(' .fa-x');
 
     if($(window).width() < 990) {
@@ -56,7 +56,7 @@ $(function(){
         
 
 
-        fax.click(function(){
+        fax.click(function (){
             modalNavV.css({
                 display: 'none',
             })
