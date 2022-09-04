@@ -109,6 +109,9 @@
     .parentTextHome{
         padding-top: 35% !important;
     }
+    .galleryBigParent .h22 {
+       font-size: 23px !important;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -137,6 +140,11 @@
     .parentAbout{
         width: 100% !important;
     }
+    .galleryBigParent {
+        width: 100% !important;
+    }
+    
+    
 }
 @media only screen and (max-width: 650px){
     .parentAbout2 img {
@@ -207,6 +215,9 @@
      }
      .parentAbout2 img {
         height: 270px !important;
+    }
+    .galleryBigParent .h22 {
+        font-size: 17px !important;
     }
  }
 
