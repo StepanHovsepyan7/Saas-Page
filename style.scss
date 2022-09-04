@@ -74,6 +74,7 @@ html{
 
 .parent2{
     padding-top: 130px;
+    z-index: 9;
     display: flex;  
     justify-content:center;
     align-items: center;
@@ -243,6 +244,15 @@ html{
     display: none;
 }
 
+
+@mixin but() {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 150px;
+    transition: 0.5s;
+}
 .parentTextHome{
     justify-content: center;
     text-align: center;
@@ -267,12 +277,7 @@ html{
     }
 
     button{
-        background-color: white;
-        border: none;
-        border-radius: 5px;
-        height: 60px;
-        width: 150px;
-        transition: 0.5s;
+       @include but()
     }
 
 }
@@ -284,7 +289,7 @@ html{
     background-color: rgba(10,11,15,.9);
     height: 500px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 360px;
     width: 70%;
     // display: flex;
     font-family: 'Lato', sans-serif;
@@ -328,14 +333,17 @@ html{
     display: flex;
     text-align: end;
 }
+.positionAboutGg{
+    position: relative;
+    bottom: 58%;
+}
 .positionAbout{
     position: absolute;
-    left: 63%;
-    top: 105%;
+    left: 65%;
 }
 
 .aboutClass{
-    display: none;
+    display: block;
     animation: myani4 1s;
 
     @keyframes myani4{
@@ -350,10 +358,10 @@ html{
 
 
 
-// PORTFOLIO
 
 
-// About
+
+// Gallery
 
 .galleryBigParent{
     background-color: rgba(10,11,15,.9);
@@ -365,7 +373,7 @@ html{
     justify-content: center;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
-    margin-top: 100px;
+    margin-top: 302px;
     
     
     h2{
@@ -441,3 +449,216 @@ html{
 
 
 
+
+// SERVICES
+
+@mixin icons2 {
+    font-size: 25px;
+    color: white;
+}
+.servicesParent{
+    background-color: rgba(10,11,15,.9);
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    h2{
+        color: white;
+    }
+    p{
+        color: gainsboro;
+        font-size: 25px;
+    }
+
+    .serviceSmallDiv{
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+
+    .fa-camera{
+       @include icons2()
+    }
+
+    .fa-pencil{
+        @include icons2()
+    }
+
+    .fa-film{
+        @include icons2()
+    }    
+
+    .serviceSmallDiv2{
+        display: flex;
+        margin-left: 30px;
+        padding-top: 30px;
+
+        h2{
+            margin-left: 30px;
+            font-size: 22px;
+        }
+    }
+    .sP{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .serviceImg1{
+      justify-content: end;
+      align-items: flex-end;
+      background-image: url(img/s1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      left: 65%;
+      margin-top: 10%;
+      height: 300px;
+      width: 300px;
+
+      img{
+        margin-left: -40%;
+        width: 100%;
+        height: 250px;
+        margin-top: 50%;
+      }
+    }   
+}
+
+// CONTACT
+
+    
+
+@mixin inputs() {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+@mixin inputs2() {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    width: 65%;
+    height: 100px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+input::placeholder{
+    // padding-left: 10px;
+    padding-top: 20px;
+    // margin-left: 10px;
+}
+.contactParent{
+    background-color: rgba(10,11,15,.9);
+    width: 70%;
+    height: 100%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+
+    h2{
+        color: white;
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+
+    p{
+        color: gainsboro;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .contacSmallParent{
+        display: flex;
+
+        input{
+            @include inputs()
+        }
+        .messageInput{
+            @include inputs2()
+        }
+      
+        .fa-location-dot{
+            color: white;
+            font-size: 25px;
+            margin-left: 15%;
+        }
+
+        .fa-mobile{
+            color: white;
+            font-size: 25px;
+            margin-left: 25%;
+        }
+
+        .fa-telegram{
+            color: white;
+            font-size: 25px;
+            margin-left: 25%;
+        }
+
+        .danii{
+            justify-content: start;
+
+            text-align: start;
+        }
+        .pGps{
+            font-size: 15px;
+        }
+    }
+   
+    .contactSmallParent2{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 50px;
+        transition: 0.3s;
+
+        input{
+            background-color: rgba(10,11,15,.9);
+        }
+
+        span{
+            color: #34e3c9;
+            margin-left: 10px;
+        }
+
+        button{
+            @include but()   
+        }
+
+       
+    }
+}
+.contactInstagram{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+
+    img {
+        border-radius: 10px;
+        width: 250px;
+        margin-left: 30px;
+        filter: grayscale(80%);
+    }
+
+    button{
+        @include but();
+        position: absolute;
+    }
+}

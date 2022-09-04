@@ -141,13 +141,13 @@ galleryA.click(function () {
         color:'white',
     }) 
     aboutA.css({
-        color:'white' ,
+        color:'white',
     })   
     port.css({
         color: 'white',
     })
     galleryA.css({
-        color:'#34e3c9' , 
+        color:'#34e3c9', 
     })
     serviceA.css({
         color: 'white',
@@ -168,8 +168,8 @@ serviceA.click(function () {
     port.css({
         color: 'white',
     })
-    galleryA.css({
-        color:'wihite' , 
+   galleryA.css({
+    color: 'white',
     })
     serviceA.css({
         color: '#34e3c9',
@@ -202,29 +202,4 @@ contactA.click(function () {
 
 })
 
-let  aboutClass = $('.aboutClass')
-   
-
-$(window).scroll(function(){
-    $(".aboutClass").each(function(){ 
-      var x = $(window).scrollTop() + $(window).height(); 
-      var y = $(this).offset().top + $(this).height() / 2; 
-
-      if (x >= y) { 
-        $(this).addClass('active');
-        aboutClass.css({
-            display: 'block',
-        })
-      };
-    });
-  });
-
-  let allBTN = $('.allBTN');
-  let foodsBTN = $('.foodsBTN')
-  let drinksBTN = $('.drinksBTN');
-  let eventsBTN = $('.eventsBTN');
-  let pastiresBTN = $('.pastiresBTN');
-
-
- 
 // .fa-x

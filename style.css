@@ -86,6 +86,7 @@ html {
 
 .parent2 {
   padding-top: 130px;
+  z-index: 9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +324,7 @@ html {
   background-color: rgba(10, 11, 15, 0.9);
   height: 500px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 360px;
   width: 70%;
   font-family: "Lato", sans-serif;
   color: white;
@@ -366,14 +367,18 @@ html {
   text-align: end;
 }
 
+.positionAboutGg {
+  position: relative;
+  bottom: 58%;
+}
+
 .positionAbout {
   position: absolute;
-  left: 63%;
-  top: 105%;
+  left: 65%;
 }
 
 .aboutClass {
-  display: none;
+  display: block;
   -webkit-animation: myani4 1s;
           animation: myani4 1s;
 }
@@ -408,7 +413,7 @@ html {
           justify-content: center;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
-  margin-top: 100px;
+  margin-top: 302px;
 }
 .galleryBigParent h2 {
   padding-top: 20px;
@@ -487,4 +492,229 @@ html {
 }
 .modals img {
   position: fixed;
+}
+
+.servicesParent {
+  background-color: rgba(10, 11, 15, 0.9);
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding-bottom: 50px;
+  font-family: "Lato", sans-serif;
+}
+.servicesParent h2 {
+  color: white;
+}
+.servicesParent p {
+  color: gainsboro;
+  font-size: 25px;
+}
+.servicesParent .serviceSmallDiv {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.servicesParent .fa-camera {
+  font-size: 25px;
+  color: white;
+}
+.servicesParent .fa-pencil {
+  font-size: 25px;
+  color: white;
+}
+.servicesParent .fa-film {
+  font-size: 25px;
+  color: white;
+}
+.servicesParent .serviceSmallDiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.servicesParent .serviceSmallDiv2 h2 {
+  margin-left: 30px;
+  font-size: 22px;
+}
+.servicesParent .sP {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.servicesParent .serviceImg1 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url(img/s1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 65%;
+  margin-top: 10%;
+  height: 300px;
+  width: 300px;
+}
+.servicesParent .serviceImg1 img {
+  margin-left: -40%;
+  width: 100%;
+  height: 250px;
+  margin-top: 50%;
+}
+
+input::-webkit-input-placeholder {
+  padding-top: 20px;
+}
+
+input::-moz-placeholder {
+  padding-top: 20px;
+}
+
+input:-ms-input-placeholder {
+  padding-top: 20px;
+}
+
+input::-ms-input-placeholder {
+  padding-top: 20px;
+}
+
+input::placeholder {
+  padding-top: 20px;
+}
+
+.contactParent {
+  background-color: rgba(10, 11, 15, 0.9);
+  width: 70%;
+  height: 100%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Lato", sans-serif;
+}
+.contactParent h2 {
+  color: white;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+.contactParent p {
+  color: gainsboro;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.contactParent .contacSmallParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactParent .contacSmallParent input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  width: 30%;
+  height: 50px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.contactParent .contacSmallParent .messageInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  width: 65%;
+  height: 100px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.contactParent .contacSmallParent .fa-location-dot {
+  color: white;
+  font-size: 25px;
+  margin-left: 15%;
+}
+.contactParent .contacSmallParent .fa-mobile {
+  color: white;
+  font-size: 25px;
+  margin-left: 25%;
+}
+.contactParent .contacSmallParent .fa-telegram {
+  color: white;
+  font-size: 25px;
+  margin-left: 25%;
+}
+.contactParent .contacSmallParent .danii {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: start;
+}
+.contactParent .contacSmallParent .pGps {
+  font-size: 15px;
+}
+.contactParent .contactSmallParent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.contactParent .contactSmallParent2 input {
+  background-color: rgba(10, 11, 15, 0.9);
+}
+.contactParent .contactSmallParent2 span {
+  color: #34e3c9;
+  margin-left: 10px;
+}
+.contactParent .contactSmallParent2 button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  height: 60px;
+  width: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contactInstagram {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+.contactInstagram img {
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 30px;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+.contactInstagram button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  height: 60px;
+  width: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
 }

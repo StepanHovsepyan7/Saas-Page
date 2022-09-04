@@ -2,6 +2,9 @@
     .positionAbout{
         top: 97% !important;
     }
+    .contactInstagram img {
+        width: 225px !important;
+    }
 }
 @media only screen and (max-width: 1548px){
     .positionAbout {
@@ -17,8 +20,23 @@
     .parentAbout2 h2 {
         font-size: 28px;
     }
+    .positionAbout {
+        left: 68% !important;
+    }
+    .servicesParent .serviceImg1 {
+        left: 62% !important;
+    }
 }
 
+@media only screen and (max-width: 1490px){
+    .contactInstagram img {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .contactInstagram button {
+        left: 46% !important;
+    }
+}
 
 @media only screen and (max-width: 1500px){
     .parentAbout2{
@@ -29,17 +47,20 @@
     }
     .parentAbout2 h5{
         text-align: center !important;
+        margin-left: 0px !important;
     }
     .parentAbout2 .h4-a {
          margin-left: 0px !important; 
     }
     .parentAbout2 p {
         text-align: center !important;
+        margin-left: 0px !important;
     }
     .positionAbout{
         display: none !important;
-        width: 55% !important;
+        /* width: 55% !important; */
     }
+    
     .parentAbout{
         height: 100% !important;
         justify-content: center !important;
@@ -51,9 +72,15 @@
          margin-left: 0px !important; 
     }
     
-    
+    .parentAbout2 {
+        display: block !important;
+    }
 }
-
+@media only screen and (max-width: 1450px){
+    .danii{
+        display: none !important;
+    }
+}
 
 @media only screen and (max-width: 1400px){
     .parent button{
@@ -65,6 +92,38 @@
     .parent2 li{
         margin-left: 80px !important;
     }
+    .servicesParent .serviceImg1 img {
+        margin-left: -28% !important;
+        width: 89% !important;
+        height: 241px !important;
+    }
+    .servicesParent .sP {
+        font-size: 17px !important;
+    }
+    .servicesParent .sP {
+        font-size: 16px !important;
+    }
+    .servicesParent .serviceImg1 {
+        left: 58% !important;
+        margin-top: 13% !important;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1230px){
+    .servicesParent .serviceImg1 {
+        margin-left: 5%;
+        height: 255px !important;
+        width: 245px !important;
+        margin-top: 17% !important;
+    }
+    .servicesParent .serviceImg1 img {
+        margin-left: -22% !important;
+        width: 83% !important;
+        height: 219px !important;
+    }
 }
 
 @media only screen and (max-width: 1200px){
@@ -74,6 +133,17 @@
     .parentTextHome{
         padding-top: 30% !important;
     }
+    .servicesParent .serviceImg1 img {
+        margin-left: -22% !important;
+        width: 79% !important;
+        height: 203px !important;
+    }
+    .servicesParent .serviceImg1 {
+        margin-left: 3%;
+        height: 228px !important;
+        width: 222px !important;
+        margin-top: 17% !important;
+    }
 }
 @media only screen and (max-width: 1100px){
     .parent button{
@@ -81,6 +151,31 @@
     }
     .parent2 a{
         font-size: 17px !important;
+    }    
+    .contactParent .contacSmallParent input {
+        width: 40% !important;
+    }
+    .contactParent .contacSmallParent .messageInput {
+        width: 87% !important;
+    }
+}
+
+@media only screen and (max-width: 1070px){
+    .servicesParent .serviceImg1 {
+       display: none;
+    }
+    .servicesParent h2 {
+        text-align: center !important;
+    }
+    .servicesParent p {
+        text-align: center !important;
+    }
+    .servicesParent .serviceSmallDiv2 {
+        margin-left: 38% !important;
+    }
+    .servicesParent p {
+        color: gainsboro;
+        font-size: 22px !important;
     }
 }
 
@@ -113,7 +208,27 @@
        font-size: 23px !important;
     }
 }
-
+@media only screen and (max-width: 900px){
+    .contactParent p {
+        font-size: 23px !important;
+    }
+}
+@media only screen and (max-width: 800px){
+    .servicesParent p {
+        font-size: 18px !important;
+    }
+    .contactParent .contacSmallParent {
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 752px){
+    .contactParent .contacSmallParent input {
+        width: 85% !important;
+    }
+    .contactParent .contacSmallParent .messageInput {
+        width: 85% !important;
+    }
+}
 @media only screen and (max-width: 750px){
     .parent button{
         left: 84% !important;
@@ -143,9 +258,29 @@
     .galleryBigParent {
         width: 100% !important;
     }
-    
-    
-}
+    .servicesParent{
+        width: 100% !important;
+    }
+    .servicesParent p{
+        font-size: 23px !important;
+    }
+    .servicesParent .sP {
+        font-size: 18px !important;
+    }
+    .contactParent .contacSmallParent input {
+        width: 88% !important;
+    }
+    .contactParent .contacSmallParent .messageInput {
+        width: 85% !important;
+    }
+    .contactParent p {
+        font-size: 20px !important;
+    }
+    .contactParent {
+        width: 100% !important;
+    }
+    }
+
 @media only screen and (max-width: 650px){
     .parentAbout2 img {
         height: 285px !important;
@@ -178,6 +313,9 @@
     .parentTextHome{
         padding-top: 60% !important;
     }
+    .servicesParent p {
+        font-size: 20px !important;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -190,10 +328,31 @@
     .parentAbout2 img {
         height: 300px !important;
     }
+    .servicesParent .sP {
+         margin-left: 0px !important; 
+        font-size: 20px;
+    }
+    .servicesParent .serviceSmallDiv {
+        margin-left: 0px !important;  
+   }
+   .servicesParent .serviceSmallDiv2 {
+    margin-left: 29% !important;
+}
 }
 @media only screen and (max-width: 550px){
     .parentAbout2 h2 {
         font-size: 18px !important;
+    }
+    .servicesParent .serviceSmallDiv {
+         margin-left: 0px !important;  
+    }
+    .servicesParent .sP {
+        margin-left: 0px !important; 
+    }
+}
+@media only screen and (max-width:534px){
+    .contactInstagram button {
+        left: 39% !important;
     }
 }
 @media only screen and (max-width: 450px){
@@ -219,6 +378,18 @@
     .galleryBigParent .h22 {
         font-size: 17px !important;
     }
+    .servicesParent .serviceSmallDiv2 {
+        margin-left: 30% !important;
+    }
+    .contactParent .contacSmallParent input {
+        margin-left: 20px !important;
+    }
+    .contactInstagram img {
+        width: 65% !important;
+    }
+    .contactInstagram button {
+        left: 37% !important;
+    }
  }
 
 @media only screen and (max-width: 400px){
@@ -228,8 +399,23 @@
     .parentAbout2 img {
         height: 239px !important;
     }
+    .servicesParent .serviceSmallDiv2 {
+        margin-left: 25% !important;
+    }
+    .servicesParent .serviceSmallDiv {
+         margin-left: 0px !important; 
+    }
 }
-
+@media only screen and (max-width: 390px){
+    .contactInstagram button {
+        left: 33% !important;
+    }
+}
+@media only screen and (max-width: 370px){
+    .servicesParent .serviceSmallDiv2 {
+        margin-left: 22% !important;
+    }
+}
 
 @media only screen and (max-width: 350px){
     .parent button{
@@ -248,8 +434,8 @@
         padding-top: 100% !important;
     }
 }
-
-
-
-
-
+@media only screen and (max-width: 320px) {
+    .contactInstagram button {
+        left: 30% !important;
+    }
+}
