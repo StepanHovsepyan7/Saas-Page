@@ -17,7 +17,9 @@ $(function(){
             $(".parent2").css({
                 backgroundColor: "transparent",
             })
-            
+            $('a').css({
+                color: '#262626',
+            })
         }
 
     })
@@ -76,19 +78,19 @@ aboutA.click(function(){
         color:'#34e3c9' ,
     })   
     homeA.css({
-        color: 'white',
+        color: '#292d36',
     })
     port.css({
-        color: 'white',
+        color: '#292d36',
     })
     galleryA.css({
-        color:'white' , 
+        color:'#292d36', 
     })
     serviceA.css({
-        color: 'white',
+        color: '#292d36',
     })
     contactA.css({
-        color: 'white',
+        color: '#292d36',
     })
 
 })
@@ -98,102 +100,102 @@ homeA.click(function () {
         color:'#34e3c9',
     }) 
     aboutA.css({
-        color:'white' ,
+        color:'#292d36' ,
     })   
     port.css({
-        color: 'white',
+        color: '#292d36',
     })
     galleryA.css({
-        color:'white' , 
+        color:'#292d36', 
     })
     serviceA.css({
-        color: 'white',
+        color: '#292d36',
     })
     contactA.css({
-        color: 'white',
+        color: '#292d36',
     })
 })
 
 port.click(function () {
     homeA.css({
-        color:'white',
+        color:'#292d36',
     }) 
     aboutA.css({
-        color:'white' ,
+        color:'#292d36' ,
     })   
     port.css({
         color: '#34e3c9',
     })
     galleryA.css({
-        color:'white' , 
+        color:'#292d36', 
     })
     serviceA.css({
-        color: 'white',
+        color: '#292d36',
     })
     contactA.css({
-        color: 'white',
+        color: '#292d36',
     })
 })
 
 
 galleryA.click(function () {
     homeA.css({
-        color:'white',
+        color:'#292d36',
     }) 
     aboutA.css({
-        color:'white',
+        color:'##292d36',
     })   
     port.css({
-        color: 'white',
+        color: '#292d36',
     })
     galleryA.css({
         color:'#34e3c9', 
     })
     serviceA.css({
-        color: 'white',
+        color: '#292d36',
     })
     contactA.css({
-        color: 'white',
+        color: '#292d36',
     })
 })
 
 
 serviceA.click(function () {
     homeA.css({
-        color:'white',
+        color:'#292d36',
     }) 
     aboutA.css({
-        color:'white' ,
+        color:'#292d36' ,
     })   
     port.css({
-        color: 'white',
+        color: '#292d36',
     })
    galleryA.css({
-    color: 'white',
+    color: '#292d36',
     })
     serviceA.css({
         color: '#34e3c9',
     })
     contactA.css({
-        color: 'white',
+        color: '#292d36',
     })
 })
 
 contactA.click(function () {
     homeA.css({
-        color:'white',
+        color:'#292d36',
     }) 
     aboutA.css({
-        color:'white' ,
+        color:'#292d36' ,
     })   
     port.css({
-        color: 'white',
+        color: '#292d36',
     })
     galleryA.css({
-        color:'wihite' , 
+        color:'#292d36' , 
     })
     serviceA.css({
-        color: 'white',
+        color: '#292d36',
     })
     contactA.css({
         color: '#34e3c9',
