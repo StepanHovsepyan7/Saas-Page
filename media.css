@@ -30,11 +30,11 @@
 
 @media only screen and (max-width: 1490px){
     .contactInstagram img {
-        margin-left: 30px;
+        margin-left: 0px !important;
         margin-top: 10px;
     }
     .contactInstagram button {
-        left: 46% !important;
+        left: 45% !important;
     }
 }
 
@@ -124,6 +124,14 @@
         width: 83% !important;
         height: 219px !important;
     }
+    .contactInstagram button {
+        left: 44% !important;
+    }
+}
+@media only screen and (max-width: 1320px){
+    .contactInstagram img {
+        margin-left: 3px !important;
+    }
 }
 
 @media only screen and (max-width: 1200px){
@@ -159,7 +167,11 @@
         width: 87% !important;
     }
 }
-
+@media only screen and (max-width: 1007px){
+    .contactInstagram button {
+        left: 42% !important;
+    }
+}
 @media only screen and (max-width: 1070px){
     .servicesParent .serviceImg1 {
        display: none;
@@ -211,6 +223,11 @@
 @media only screen and (max-width: 900px){
     .contactParent p {
         font-size: 23px !important;
+    }
+}
+@media only screen and (max-width: 850px){
+    .contactInstagram button {
+        left: 40% !important;
     }
 }
 @media only screen and (max-width: 800px){
@@ -337,7 +354,8 @@
    }
    .servicesParent .serviceSmallDiv2 {
     margin-left: 29% !important;
-}
+    }
+   
 }
 @media only screen and (max-width: 550px){
     .parentAbout2 h2 {
@@ -352,7 +370,7 @@
 }
 @media only screen and (max-width:534px){
     .contactInstagram button {
-        left: 39% !important;
+        left: 35% !important;
     }
 }
 @media only screen and (max-width: 450px){
@@ -388,8 +406,9 @@
         width: 65% !important;
     }
     .contactInstagram button {
-        left: 37% !important;
+        left: 30% !important;
     }
+    
  }
 
 @media only screen and (max-width: 400px){
@@ -439,13 +458,39 @@
         left: 30% !important;
     }
 }
-
-
 @media only screen and (max-width:450px){
     .contactParent h2 {
         margin-left: 25px !important;
     }
     .contactParent p {
         margin-left: 25px !important;
+    }
+}
+
+
+ @media only screen and (max-width:477px){
+    .contactInstagram img {
+         margin-left: 3px !important;
+    }
+    .contactInstagram button {
+        left: 33% !important;
+    }
+} 
+
+@media only screen and (max-width: 428px){
+    .contactInstagram button {
+        left: 32% !important;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .contactInstagram button {
+        left: 28% !important;
+    }
+}
+
+@media only screen and (max-width:330px){
+    .contactInstagram button {
+        left: 26% !important;
     }
 }
