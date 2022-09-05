@@ -439,13 +439,3 @@
         left: 30% !important;
     }
 }
-
-
-@media only screen and (max-width:450px){
-    .contactParent h2 {
-        margin-left: 25px !important;
-    }
-    .contactParent p {
-        margin-left: 25px !important;
-    }
-}

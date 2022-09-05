@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image: url(img/bg1.jpg);
+    background-image: url(LiteIMG/bgLITE1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,16 +15,16 @@ body{
 }
 @keyframes myani{
     0%{
-        background-image: url(img/bg1.jpg);
+        background-image: url(LiteIMG/bgLITE1.jpg);
     }
     25%{
-        background-image: url(img/bg2.jpg);
+        background-image: url(LiteIMG/bgLITE2.jpg);
     }
     50%{
-        background-image: url(img/bg3.jpg);
+        background-image: url(LiteIMG/bgLITE3.jpg);
     }
     100%{
-        background-image: url(img/bg4.jpg);
+        background-image: url(LiteIMG/bgLITE4.jpg);
     }
 }
 html{
@@ -33,6 +33,18 @@ html{
 
 
 // NAV
+.fa-moon{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    font-size: 25px;
+    transition: 0.5s;
+
+    &:hover{
+        transform: rotate(30deg);
+    }
+}
 
 .parent{
     background-color: #262626;
@@ -91,7 +103,7 @@ html{
     }
 
     a{
-        color: white;
+        color: #292d36;
         text-decoration: none;
         transition: 0.5s;
         font-size: 20px;
@@ -99,7 +111,7 @@ html{
     }
     
     a:hover{
-        color: #34e3c9;
+        color: #32abff;
     }
 
     li{
@@ -113,14 +125,14 @@ html{
     font-size: 25px;
     margin-left: 10px;
     background-color: $insta;
-    color: rgb(255, 255, 255);
+    color: #292d36;
     border-radius: 50%
 }
 @mixin animIcons() {
     color: #34e3c9;
 }
 .fa-facebook{
-    @include icons(black);
+    @include icons(rgb(255, 255, 255));
     transition: 0.3s
 }
 .fa-instagram{
@@ -140,14 +152,7 @@ html{
     @include animIcons();
     cursor: pointer;
 }
-.fa-sun{
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    font-size: 25px;
-    transition: 0.5s;
-}
+
 .fa-sun:hover{
     cursor: pointer;
     transform: rotate(100deg);
@@ -166,7 +171,7 @@ html{
 .modalNavV{
     position: absolute;
     position: fixed;
-    background-color: #0a0b0f;
+    background-color: #ffffff;
     width: 400px;
     z-index: 99;
     height: 100%;
@@ -193,12 +198,12 @@ html{
         top: 10%;
         font-size: 25px;
         left: 90%;
-        color: white;
+        color: #292d36;
         cursor: pointer;
     }
 
     a{
-        color: white;
+        color: #292d36;
         text-decoration: none;
         transition: 0.5s;
         font-size: 20px;
@@ -247,7 +252,9 @@ html{
 
 
 @mixin but() {
-    background-color: white;
+    background-color: #292d36;
+    border-color: #292d36;
+    color: white;
     border: none;
     border-radius: 5px;
     height: 60px;
@@ -258,7 +265,7 @@ html{
     justify-content: center;
     text-align: center;
     align-items: center;
-    color: white;
+    color: #292d36;
     padding-top: 20%;
     font-family: 'Lato', sans-serif;
     animation: myani3 1s;
@@ -287,14 +294,14 @@ html{
 // ABOUT
 
 .parentAbout{
-    background-color: rgba(10,11,15,.9);
+    background-color: rgba(255,255,255,.9);
     height: 500px;
     margin: 0 auto;
     margin-top: 360px;
     width: 70%;
     // display: flex;
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: #292d36;
 
   
 }
@@ -313,7 +320,7 @@ html{
         margin-left: 30px;
     }
     .h4-a{
-        color: gainsboro;
+        color: #292d36b3;
         margin-left: 30px;
     }
     h5{
@@ -365,7 +372,7 @@ html{
 // Gallery
 
 .galleryBigParent{
-    background-color: rgba(10,11,15,.9);
+    background-color: rgba(255,255,255,.9);
     width: 70%;
     height: 100%;
     padding-bottom: 50px;
@@ -380,11 +387,11 @@ html{
     h2{
         padding-top: 20px;
         margin-top: 30px;
-        color: white;
+        color: #292d36;
     }
     .h22{
         margin-top: 10px;
-        color: gainsboro;
+        color: #292d36b3;
     }
     p{
         display: inline-block;
@@ -435,18 +442,7 @@ html{
 }
 
 
-.modals{
-    position: fixed;
-    position: absolute;
-    color: red;
-    bottom: 82%;
-    left: 19%;
 
-    img{
-        position: fixed;
-    }
-
-}
 
 
 
@@ -455,10 +451,10 @@ html{
 
 @mixin icons2 {
     font-size: 25px;
-    color: white;
+    color: #292d36;
 }
 .servicesParent{
-    background-color: rgba(10,11,15,.9);
+    background-color: rgba(255,255,255,.9);
     width: 70%;
     height: 100%;
     margin: 0 auto;
@@ -466,10 +462,10 @@ html{
     padding-bottom: 50px;
     font-family: 'Lato', sans-serif;
     h2{
-        color: white;
+        color: #292d36;
     }
     p{
-        color: gainsboro;
+        color: #292d36b3;
         font-size: 25px;
     }
 
@@ -507,7 +503,7 @@ html{
     .serviceImg1{
       justify-content: end;
       align-items: flex-end;
-      background-image: url(img/s1.jpg);
+      background-image: url(LiteIMG/s1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       position: absolute;
@@ -532,14 +528,14 @@ html{
 @mixin inputs() {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid #292d36;
     width: 30%;
     height: 50px;
     font-size: 20px;
     padding-bottom: 10px;
     margin-top: 30px;
     margin-left: 50px;
-    color: white;
+    color: #292d36;
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 10px;
@@ -547,14 +543,14 @@ html{
 @mixin inputs2() {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid #262626;
     width: 65%;
     height: 100px;
     font-size: 20px;
     padding-bottom: 10px;
     margin-top: 30px;
     margin-left: 50px;
-    color: white;
+    color: #292d36;
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 10px;
@@ -565,7 +561,7 @@ input::placeholder{
     // margin-left: 10px;
 }
 .contactParent{
-    background-color: rgba(10,11,15,.9);
+    background-color: rgb(255, 255, 255);
     width: 70%;
     height: 100%;
     padding-bottom: 50px;
@@ -574,13 +570,13 @@ input::placeholder{
     font-family: 'Lato', sans-serif;
 
     h2{
-        color: white;
+        color: #292d36;
         margin-left: 50px;
         padding-top: 30px;
     }
 
     p{
-        color: gainsboro;
+        color: #292d36b3;
         font-size: 25px;
         margin-left: 50px;
     }
@@ -595,19 +591,19 @@ input::placeholder{
         }
       
         .fa-location-dot{
-            color: white;
+            color: #292d36;
             font-size: 25px;
             margin-left: 15%;
         }
 
         .fa-mobile{
-            color: white;
+            color: #292d36;
             font-size: 25px;
             margin-left: 25%;
         }
 
         .fa-telegram{
-            color: white;
+            color: #262626;
             font-size: 25px;
             margin-left: 25%;
         }
