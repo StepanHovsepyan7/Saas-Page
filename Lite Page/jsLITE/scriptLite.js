@@ -5,7 +5,7 @@ $(function(){
 
         if($(window).scrollTop() >= 2) {
             $(".parent2").css({
-                background: "rgba(255,255,255,.9)",
+                background: "white",
             })
             $('.parent2 ul').css({
                 marginBottom: "4rem",
