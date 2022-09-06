@@ -190,7 +190,7 @@ contactA.click(function () {
         color: 'white',
     })
     galleryA.css({
-        color:'wihite' , 
+        color:'white' , 
     })
     serviceA.css({
         color: 'white',

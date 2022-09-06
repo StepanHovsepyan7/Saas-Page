@@ -143,7 +143,7 @@ galleryA.click(function () {
         color:'#292d36',
     }) 
     aboutA.css({
-        color:'##292d36',
+        color:'#292d36',
     })   
     port.css({
         color: '#292d36',
