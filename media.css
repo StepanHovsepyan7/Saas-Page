@@ -83,9 +83,6 @@
 }
 
 @media only screen and (max-width: 1400px){
-    .parent button{
-        left: 91% !important;
-    }
     .parentTextHome{
         padding-top: 25% !important;
     }
@@ -165,6 +162,28 @@
     }
     .contactParent .contacSmallParent .messageInput {
         width: 87% !important;
+    }
+    .galleryParent2 img {
+        width: 70% !important;
+    }
+    .galleryParent3 img {
+        width: 70% !important;
+    }
+    .galleryParent3 {
+        text-align: start;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        align-items: center !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .galleryParent2 {
+        display: flex;
+        text-align: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        align-items: center !important;
+        flex-direction: column !important;
     }
 }
 @media only screen and (max-width: 1007px){
@@ -336,9 +355,6 @@
 }
 
 @media only screen and (max-width: 500px){
-    .parent button{
-        left: 75% !important;
-    }
     .parent img{
         left: 0% !important;
     }
@@ -355,7 +371,12 @@
    .servicesParent .serviceSmallDiv2 {
     margin-left: 29% !important;
     }
-   
+    .galleryParent2 img {
+        width: 85% !important;
+    }
+    .galleryParent3 img {
+        width: 85% !important;
+    }
 }
 @media only screen and (max-width: 550px){
     .parentAbout2 h2 {
@@ -433,6 +454,12 @@
 @media only screen and (max-width: 370px){
     .servicesParent .serviceSmallDiv2 {
         margin-left: 22% !important;
+    }
+    .galleryParent2 img {
+        width: 95% !important;
+    }
+    .galleryParent3 img {
+        width: 95% !important;
     }
 }
 

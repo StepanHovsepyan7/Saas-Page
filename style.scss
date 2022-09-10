@@ -42,24 +42,9 @@ html{
     z-index: 9999;
    
 
-    button{
-        background-color: #6f9a37;
-        color: white;
-        border: none;
-        box-shadow: 0 2px 0 #6f9a37;
-        position: relative;
-        left: 93%;
-        top: 10px;
-        font-size: 14px;
-        padding: 5px 20px;
-        line-height: 1.5;
-        border-radius: 5px;
-        transition: 0.5s;
-    }
 
-    button:hover{
-        background-color: #7aa93c;
-    }
+
+
 
     img{
         display: inline-block;
